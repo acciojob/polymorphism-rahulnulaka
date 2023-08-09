@@ -1,6 +1,5 @@
 package polymorphism;
-import java.util.*;
 public class Main {
 Product p=new Product();
-int a=p.product(10,5);
+double a=p.product(10.0,5.0);
 }
