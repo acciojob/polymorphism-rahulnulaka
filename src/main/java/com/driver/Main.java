@@ -15,13 +15,12 @@ public class Main {
 	public static void main(String[] args){
 	Product p = new Product();
 
-    int result1 = p.product(5, 3);
-    System.out.println("Product of 5 and 3: " + result1);
+    p.product(5, 3);
 
-    int result2 = p.product(2, 4, 6);
-    System.out.println("Product of 2, 4, and 6: " + result2);
+    p.product(2, 4, 6);
+    
 
-    double result3 = p.product(2.5, 3.5);
-    System.out.println("Product of 2.5 and 3.5: " + result3);
+    p.product(2.5, 3.5);
+    
 }
 }
